@@ -10,13 +10,13 @@
 name: 'Publish to GitHub Pages'
 
 env:
-  GODOT_VERSION: 3.2.2 # Remember to manually set image to this version below.
+  GODOT_VERSION: 4.2.2 # Remember to manually set image to this version below.
 
 on:
   workflow_dispatch:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
@@ -48,6 +48,3 @@ jobs:
           user_name: 'github-ci[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
           commit_message: 'Publish to gh-pages'
-@CodyMWilson
-Comment
-
