@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - pie_flavor-1 # edit to work with main after something is there
+      - main # edit to work with main after something is there
 
 jobs:
   deploy:
